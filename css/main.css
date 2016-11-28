@@ -1,0 +1,48 @@
+.pd-0{
+	padding: 0 !important;
+}
+.icono_mensaje{
+	text-decoration: none;
+	color: gray;
+	font-size: 100%;
+}
+.grey{
+	color: grey;
+}
+/*hora para usuarios*/
+.tamañoAside{
+	height:590px;
+}
+/*scroll*/
+#global {
+	height: 400px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+#mensajes {
+	height: auto;
+}
+/*background de mensajeria*/
+.bg-dibujos{
+	background-image: url(../image/chat-panel-bg.png);
+	height: 400px;
+}
+input{
+	margin-bottom: 0 !important;
+}
+/*iconos*/
+.icoSmall{
+	color: grey;
+	padding-left: 50%;
+	padding-top: 50%;
+}
+.icoMicro{
+	color: gray;
+	padding-top: 50%;
+}
+/*input escribe un mensaje*/
+.inputEscribe{
+	background-color: white !important;
+	border-radius: 5px !important;
+}
