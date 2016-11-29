@@ -28,11 +28,11 @@
 					<div class="col s5 m5 l5 pd-0 hide-on-small-only">
 						<ul class="collection">
 							<li> <!-- li para img de perfil e iconos de menu -->
-							 	 <div class="collection">
+							 	 <div>
 									<div class="collection-item avatar grey lighten-1">
 										<img src="image/gian.jpg" alt="foto de perfil" class="circle">
 										<i class="material-icons right section"><a  class="icono_mensaje" href="">more_vert</a></i>
-										<i class="material-icons right section "><a class="icono_mensaje" href="">message</a> </i><!-- calse section da un padin de iem -->	
+										<i class="material-icons right section "><a class="icono_mensaje" href="">message</a> </i><!-- calse section da un padin de iem -->
 									</div>
 								</div>
 							</li>
@@ -113,7 +113,7 @@
 								</div>
 							</div>
 						</ul>
-					</div>	
+					</div>
 					<div class="col s7 m7 l7 pd-0">
 						<div class="collection">
 							<div class="collection-item avatar grey lighten-1">
@@ -126,20 +126,27 @@
 								<div class="col s1 m1 l1">
 									<i class="material-icons right section "><a class="icono_mensaje dropdown-button" href="#!" data-activates="dropdown1">tag_faces</a></i>
 									<div>
-										<!-- Dropdown -->
-										<ul id="dropdown1" class="dropdown-content">
-										  <li><a href="#!">emoji feliz</a></li>
-										  <li><a href="#!">emoji enojado</a></li>
-										 <li><a href="#!">emoji triste</a></li>
-										  <li><a href="#!">emoji lloron</a></li>
-										</ul>
+										<!-- Dropdown Trigger -->
+  									<a class='dropdown-button' href='#' data-activates='dropdown1'></a>
+										<!-- Dropdown-->
+									  <ul id='dropdown1' class='dropdown-content'>
+									    <li><a href="#!">carita feliz</a></li>
+									    <li><a href="#!">carita triste</a></li>
+									    <li class="divider">carita enojo</li>
+									    <li><a href="#!">carita que sonrie</a></li>
+									  </ul>
 									</div>
 								</div>
-								<div class="col s10 m10 l10">
-									<input  class="inputEscribe tooltipped" type="text" placeholder="Escribe un mensaje aquí" data-position="top" data-delay="50" data-tooltip="I am in left!">
+								<div class="col s9 m9 l9">
+									<input  class="inputEscribe tooltipped" type="text" placeholder="Escribe un mensaje aquí" data-position="top" data-delay="50" data-tooltip="Esto tenia que ser un mensaje :(">
 								</div>
 								<div class="col s1 m1 l1">
 									<i class="material-icons right section "><a class="icono_mensaje" href="">mic</a></i>
+								</div>
+								<div class="col s1 m1 l1">
+									<div class="tamañotarjetas btnAñadirLista">
+										<button class="" onclick="añadir()" id="btnañadirlista">Añadir una lista...</button>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -147,14 +154,10 @@
 				</div>
 			</div>
 		</section>
-		<section>
-				<a class="btn" onclick="showToast2('Hello World!', 3000)">Rounded Alert!</a>
-		
-		</section>
-		
+
 		<script src="js/materialize.min.js"></script>
 		<script src="js/main.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
       <script>
 	</body>
